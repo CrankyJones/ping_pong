@@ -1,0 +1,1 @@
+This project is Epicodus homework material from [TDD Material](https://www.learnhowtoprogram.com/ruby-and-rails/test-driven-development-with-ruby/ping-pong-title-case-leetspeak-queen-attack-clock-angle).
