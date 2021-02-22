@@ -1,8 +1,8 @@
-def ping_pong
+def ping_pong(number)
   number_array = []
   x = 0
   # puts 'Enter a number'
-  number = 2
+  # number = gets.chomp
   while (x < number)
     x = x + 1
     number_array.push(x)
