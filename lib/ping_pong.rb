@@ -1,8 +1,7 @@
+#!/usr/bin/ruby
 def ping_pong(number)
   number_array = []
   x = 0
-  # puts 'Enter a number'
-  # number = gets.chomp
   while (x < number)
     x = x + 1
     if (x.%(3).eql?(0)) && (x.%(5).eql?(0))
@@ -17,3 +16,8 @@ def ping_pong(number)
   end
   number_array
 end
+
+puts 'Enter a number'
+number = gets.chomp.to_i
+number_array = ping_pong(number)
+puts "#{number_array}"
