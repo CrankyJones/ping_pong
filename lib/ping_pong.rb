@@ -5,7 +5,11 @@ def ping_pong(number)
   # number = gets.chomp
   while (x < number)
     x = x + 1
-    number_array.push(x)
+    if x.%(3).eql?(0)
+      number_array.push('ping')
+    else
+      number_array.push(x)
+    end
   end
   number_array
 end
